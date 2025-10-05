@@ -1,0 +1,41 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa; /* light gray background */
+  color: #333;
+}
+
+/* Navbar customization */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Blog card styling */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Footer styling */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #f8f9fa;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
